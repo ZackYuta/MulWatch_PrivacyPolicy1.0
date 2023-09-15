@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+}
+
+header {
+    background-color: #fa8500;
+    color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.language-select-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#language-select {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    /* ラベルとセレクトボックスの間隔を調整 */
+    float: right;
+    /*display: inline-block;*/
+}
+
+
+/* セレクトボックスのタイトルを右揃えにする */
+
+header label[for="language-select"] {
+    margin-right: 10px;
+    float: right;
+}
+
+main {
+    background-color: #111;
+    padding: 20px;
+}
+
+
+/* h2の背景に丸みを加える */
+
+h2 {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* 丸みを加える */
+}
+
+
+/* 英語とフランス語のテキストのフォントサイズと行間を調整 */
+
+.language-content.en p,
+.language-content.fr p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+p {
+    color: #f0f0f0;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* オレンジ色のリンクスタイル */
+
+a[href] {
+    color: orange;
+    text-decoration: underline;
+    /* リンクの下線を削除（オプション） */
+}
+
+
+/* オレンジ色のリンクにホバー時のスタイルを追加する（オプション） */
+
+a[href]:hover {
+    color: darkorange;
+    /* ホバー時の色 */
+}
+
+#en-content {
+    display: none;
+}
+
+footer {
+    background-color: #fa8500;
+    color: #f0f0f0;
+    text-align: right;
+    padding: 5px;
+}
+
+footer p {
+    margin: 0;
+}
