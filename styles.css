@@ -61,7 +61,10 @@ h2 {
 /* 英語とフランス語のテキストのフォントサイズと行間を調整 */
 
 .language-content.en p,
-.language-content.fr p {
+.language-content.fr p,
+.language-content.de p,
+.language-content.es p,
+.language-content.pt p {
     font-size: 18px;
     line-height: 1.5;
 }
